@@ -30,8 +30,10 @@ namespace Application
 
         public static void TrabalhandoComArquivos()
         {
-            var trabalhandoComArquivos = new TrabalhandoComArquivos();
-            trabalhandoComArquivos.AulaCriandoArquivos();
+            var trabalhandoComArquivo = new TrabalhandoComArquivos();
+            // trabalhandoComArquivo.AulaCriandoArquivo();
+            // trabalhandoComArquivo.AulaLendoArquivo();
+            trabalhandoComArquivo.AulaExcluindoArquivo();
         }
 
         public static void TrabalhandoComExcessoes()
