@@ -5,6 +5,8 @@ using Cadastro;
 using Conversores;
 using Modulo10;
 using Modulo11;
+using Modulo12;
+using Modulo13;
 
 namespace Application
 {
@@ -21,7 +23,22 @@ namespace Application
             // AulaInterface();
             // Conversores();
             // TrabalhandoComStrings();
-            TrabalhandoComDatas();
+            // TrabalhandoComDatas();
+            // TrabalhandoComExcessoes();
+            TrabalhandoComArquivos();
+        }
+
+        public static void TrabalhandoComArquivos()
+        {
+            var trabalhandoComArquivos = new TrabalhandoComArquivos();
+            trabalhandoComArquivos.AulaCriandoArquivos();
+        }
+
+        public static void TrabalhandoComExcessoes()
+        {
+            var trabalhandoComExcessoes = new TrabalhandoComExcessoes();
+            // trabalhandoComExcessoes.AulaGerandoExceptions();
+            trabalhandoComExcessoes.AulaTratandoExceptions();
         }
 
         public static void TrabalhandoComDatas()
