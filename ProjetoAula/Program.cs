@@ -34,7 +34,10 @@ namespace Application
         {
             var linq = new TrabalhandoComLinq();
             // linq.AulaWhere();
-            linq.AulaOrdenacao();
+            // linq.AulaOrdenacao();
+            // linq.AulaTake();
+            // linq.AulaCount();
+            linq.AulaFirstEFirstOrDefault();
         }
 
         public static void TrabalhandoComArquivos()
