@@ -7,6 +7,7 @@ using Modulo10;
 using Modulo11;
 using Modulo12;
 using Modulo13;
+using Modulo14;
 
 namespace Application
 {
@@ -25,15 +26,23 @@ namespace Application
             // TrabalhandoComStrings();
             // TrabalhandoComDatas();
             // TrabalhandoComExcessoes();
-            TrabalhandoComArquivos();
+            // TrabalhandoComArquivos();
+            TrabalhandoComLinq();
+        }
+
+        public static void TrabalhandoComLinq()
+        {
+            var linq = new TrabalhandoComLinq();
+            // linq.AulaWhere();
+            linq.AulaOrdenacao();
         }
 
         public static void TrabalhandoComArquivos()
         {
             var trabalhandoComArquivo = new TrabalhandoComArquivos();
             // trabalhandoComArquivo.AulaCriandoArquivo();
-            // trabalhandoComArquivo.AulaLendoArquivo();
-            trabalhandoComArquivo.AulaExcluindoArquivo();
+            trabalhandoComArquivo.AulaLendoArquivo();
+            // trabalhandoComArquivo.AulaExcluindoArquivo();
         }
 
         public static void TrabalhandoComExcessoes()
