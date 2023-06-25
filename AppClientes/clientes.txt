@@ -1,0 +1,1 @@
+[{"Id":2,"Nome":"Vin\u0000cius Rodrigues Bidoia de Oliveira","DataNascimento":"1998-04-24","DataCadastro":"2023-06-24T22:58:30.9699133-03:00","Desconto":15},{"Id":3,"Nome":"J\u0000ssica Rodrigues Bidoia de Oliveira","DataNascimento":"2002-06-21","DataCadastro":"2023-06-24T22:59:11.4896707-03:00","Desconto":13}]
