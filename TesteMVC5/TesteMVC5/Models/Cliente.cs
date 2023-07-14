@@ -29,10 +29,8 @@ namespace TesteMVC5.Models
 
         [DisplayName ( "Data de nascimento" )]
         [Required ( ErrorMessage = "O campo {0} é obrigatório!!!" )]
-        public DateTime Birtday { get; set; }
+        public string Birtday { get; set; }
 
-        [DisplayName ( "Data do cadastro" )]
-        [Required ( ErrorMessage = "O campo {0} é obrigatório!!!" )]
-        public DateTime Cadastro { get; set; }
+        public string Cadastro { get; set; }
     }
 }
